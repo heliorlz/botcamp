@@ -9,11 +9,10 @@ import LogoBotcamp from "./components/LogoBotcamp";
 class App extends Component {
   render() {
     return (
-      <>
+      <LoginWrapper>
         <LogoBotcamp />
         <BtnBotcamp />
-        <LoginWrapper />
-      </>
+      </LoginWrapper>
     );
   }
 }
