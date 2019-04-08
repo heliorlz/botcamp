@@ -5,6 +5,7 @@ const LogoBotcamp = styled.img.attrs({
   src: logoBotcampImage,
   alt: "Botcamp Logo"
 })`
+  margin-top: 120px;
   width: 248px;
   height: 39px;
 `;
