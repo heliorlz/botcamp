@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import background from "../img/botcamp-background.png";
+import background from "../../img/botcamp-background.png";
 
 const LoginWrapper = styled.main`
   background-image: url(${background});
@@ -11,11 +11,5 @@ const LoginWrapper = styled.main`
   justify-content: space-between;
   align-items: center;
 `;
-
-// import "./style.css";
-
-// const LoginWrapper = () => {
-//   return <main className="login-wrapper" />;
-// };
 
 export default LoginWrapper;

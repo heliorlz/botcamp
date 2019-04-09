@@ -7,7 +7,6 @@ const LogoBotcamp = styled.img.attrs({
 })`
   margin-top: 120px;
   width: 248px;
-  height: 39px;
 `;
 
 export default LogoBotcamp;
