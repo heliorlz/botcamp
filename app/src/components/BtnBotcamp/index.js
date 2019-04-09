@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-const BtnBotcamp = styled.button`
+const BtnBotcamp = styled.button.attrs({
+  children: props => props.content // catching content from App.js btnbotcamp call
+})`
   width: 280px;
   height: 50px;
   margin-bottom: 80px;
