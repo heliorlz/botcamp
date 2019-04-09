@@ -5,7 +5,6 @@ const BtnBotcamp = styled.button.attrs({
 })`
   width: 280px;
   height: 50px;
-  margin-bottom: 80px;
   border-radius: 25px;
   background-color: #ee3e25;
   font-size: 20px;

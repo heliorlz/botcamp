@@ -8,7 +8,7 @@ import "./styles/reset.css";
 
 class App extends Component {
   render() {
-    return <Login />;
+    return <Chat />;
   }
 }
 
