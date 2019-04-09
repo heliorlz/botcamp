@@ -5,7 +5,7 @@ const LogoBotcamp = styled.img.attrs({
   src: logoBotcampImage,
   alt: "Botcamp Logo"
 })`
-  width: 248px;
+  width: ${props => props.small ? "200px" : "248px"};
 `;
 
 export default LogoBotcamp;
