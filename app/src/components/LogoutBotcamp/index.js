@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import icon from "./../../img/logout-icon.png";
 
-const LogoutIcon = styled.img.attrs({
+const LogoutBotcamp = styled.img.attrs({
   src: icon,
   alt: "Logout Icon"
 })`
@@ -9,4 +9,4 @@ const LogoutIcon = styled.img.attrs({
   height: 30px;
 `;
 
-export default LogoutIcon;
+export default LogoutBotcamp;
