@@ -6,6 +6,8 @@ import LogoutBotcamp from "../../components/LogoutBotcamp";
 import HeaderWrapper from "../../components/HeaderWrapper";
 import FooterWrapper from "../../components/FooterWraper";
 import InputBotcamp from "../../components/InputBotcamp";
+import UserMessage from "../../components/UserMessage";
+import MessageWrapper from "../../components/MessageWrapper";
 
 const Chat = () => (
   <>
@@ -15,6 +17,11 @@ const Chat = () => (
         <LogoutBotcamp />
       </Link>
     </HeaderWrapper>
+
+    <MessageWrapper>
+      <UserMessage />
+    </MessageWrapper>
+
     <FooterWrapper>
       <InputBotcamp />
     </FooterWrapper>
