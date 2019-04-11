@@ -6,7 +6,6 @@ const LogoBotcamp = styled.img.attrs({
   alt: "Botcamp Logo"
 })`
   width: ${props => (props.small ? "200px" : "248px")};
-  margin-bottom: ${props => (props.small ? "12px" : "0")};
 `;
 
 export default LogoBotcamp;
