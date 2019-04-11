@@ -10,6 +10,7 @@ const BtnBotcamp = styled.button.attrs({
   font-size: 20px;
   color: #ffffff;
   text-transform: uppercase;
+  cursor: pointer;
 `;
 
 export default BtnBotcamp;

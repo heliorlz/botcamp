@@ -10,7 +10,9 @@ const Chat = () => (
   <>
     <HeaderWrapper>
       <LogoBotcamp small />
-      <LogoutBotcamp />
+      <a href="/">
+        <LogoutBotcamp />
+      </a>
     </HeaderWrapper>
     <FooterWrapper>
       <InputBotcamp />
