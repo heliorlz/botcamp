@@ -8,6 +8,7 @@ import FooterWrapper from "../../components/FooterWraper";
 import InputBotcamp from "../../components/InputBotcamp";
 import UserMessage from "../../components/UserMessage";
 import MessageWrapper from "../../components/MessageWrapper";
+import UserMessageWrapper from "../../components/UserMessageWrapper";
 
 const Chat = () => (
   <>
@@ -19,12 +20,14 @@ const Chat = () => (
     </HeaderWrapper>
 
     <MessageWrapper>
-      <UserMessage />
-    </MessageWrapper>
+      <UserMessageWrapper>
+        <UserMessage />
+      </UserMessageWrapper>
 
-    <FooterWrapper>
-      <InputBotcamp />
-    </FooterWrapper>
+      <FooterWrapper>
+        <InputBotcamp />
+      </FooterWrapper>
+    </MessageWrapper>
   </>
 );
 

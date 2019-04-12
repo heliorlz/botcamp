@@ -13,6 +13,7 @@ const InputBotcamp = styled.input.attrs({
   font-size: 20px;
   color: rgba(0, 0, 0, 0.33);
   position: absolute;
+  left: 0;
   bottom: 0;
 `;
 
