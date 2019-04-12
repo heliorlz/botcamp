@@ -11,8 +11,12 @@ const UserMessage = styled.input.attrs({
   background-color: rgba(238, 62, 37, 0.83);
   border-radius: 15px;
   border-top-right-radius: 0;
-  color: #ffffff;
   font-size: 16px;
+
+  &::placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
 `;
 
 export default UserMessage;
